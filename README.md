@@ -11,3 +11,5 @@ To enable monitoring in a script, simply invoke:
 which will create an endpoint called ```a_url_valid_endpoint_name```.
 
 This README is available at ```http://<watchos_url>/help```.
+
+![Watchos screeny](watchos.png)

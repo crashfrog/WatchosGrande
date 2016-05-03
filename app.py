@@ -17,7 +17,7 @@ template = Template("""
 <HTML>
 <HEAD>
 <TITLE>Watchos</TITLE>
-<meta http-equiv="refresh" content="5">
+<meta http-equiv="refresh" content="60">
 <STYLE>
 #page-header,
 #page-footer {

@@ -3,13 +3,14 @@ from collections import OrderedDict, defaultdict
 from jinja2 import Template
 from grip import render_page
 from datetime import datetime, timedelta
+import subprocess
 
 tag = 'untagged'
 
 try:
 	tag = str(subprocess.check_output('git describe', shell=True).decode('UTF-8')).rstrip()
-except Exception:
-	pass
+except Exception as e:
+	print(e)
 
 template = Template("""
 <!DOCTYPE HTML>

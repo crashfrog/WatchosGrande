@@ -2,7 +2,7 @@
 
 ## The Cheesy Process Watchdog! ##
 
-**Watchos** (rhymes with *nachos*) does nothing but report the frequency at which a given URL endpoint is accessed. If a time longer than the sliding 10-hit window elapses since the last hit, then that endpoint's status light moves to red. If fewer than 10 hits have occurred, the endpoint's status light moves to yellow. Otherwise the status light is green. Endpoints are limited to 256, because that's a nice round number.
+**Watchos** (rhymes with *nachos*) does nothing but report the frequency at which a given URL endpoint is accessed. If a time longer than the sliding 10-hit window elapses since the last hit, then that endpoint's status light moves to red. If fewer than 10 hits have occurred, the endpoint's status light moves to yellow. Otherwise the status light is green.
 
 To enable monitoring in a script, simply invoke:
 
